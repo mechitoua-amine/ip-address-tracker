@@ -4,10 +4,10 @@ import './App.css'
 
 function App() {
   return (
-    <>
+    <div className='flex flex-col w-screen h-screen'>
       <Banner />
       <Map />
-    </>
+    </div>
   )
 }
 
